@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 2021_03_15_114843) do
     t.text "datestamp"
     t.text "barber"
     t.text "color"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end
